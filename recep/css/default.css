@@ -1,0 +1,43 @@
+html,body{
+	font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #f3f3f4;
+	color: #676a6c;
+
+	height: 100%;
+}
+.box{
+	margin:0 auto;
+}
+#side-menu{
+	background-color: #2f4050;
+	padding: 0px;
+	width: 15%;
+	text-align: center;
+}
+#side-menu h1{
+	color: #1f2647;
+	text-align: center;
+	margin:10px 0px;
+	font-size: 25px;
+}
+#side-menu ul{
+	color: #ffffff;
+}
+.display-table{
+	display: table;
+	padding: 0px;
+height: 100%;
+
+}
+.display-table-row{
+	display: table-row;
+height: 100%;
+}
+.display-table-cell{
+	display: table-cell;
+	float: none;
+	height: 100%;
+}
+.valign{
+	vertical-align: top;
+}

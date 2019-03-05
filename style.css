@@ -1,0 +1,28 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.jumbotron h1 {
+	font-size: 18px;
+	text-transform: uppercase;
+	border-bottom: 2px solid #f00;
+	width: 250px;
+	padding: 7px 0;
+}
+.card img {
+	width: 155px;
+	text-align: center;
+	height: 155px;
+	margin: 0 auto;
+}
+.jumbotron a{
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 25px;
+}
+.jumbotron h5 {
+	text-align: center;
+	padding-top: 41px;
+	color: #000;
+	font-weight: 700;
+}

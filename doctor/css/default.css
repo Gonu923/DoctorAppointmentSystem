@@ -1,0 +1,124 @@
+html,body{
+	font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #f3f3f4;
+	color: #676a6c;
+
+	height: 100%;
+}
+.boxs {
+	display: grid;
+	text-align: center;
+	color: #fff;
+	background: #847e7e;
+	padding: 40px 0px;
+	width: 100%;
+	margin-top: 30px;
+	border-radius: 0px 35px 0px 35px;
+}
+.boxs h1{
+	font-size: 30px;
+	padding-bottom: 15px;
+	font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.boxs h5{
+	font-size: 25px;
+	font-weight: 300;
+	text-transform: capitalize;
+	padding-bottom: 8px;
+}
+.formp{
+	width: 50%;
+	padding: 15px 0px;
+	text-align: center;
+	margin: 0 auto;
+}
+.formp label{
+	padding-bottom: 15px;
+	font-size: 19px;
+	text-transform: uppercase;
+}
+.button {
+	width: 194px;
+	height: 50px;
+	background: #f5eaea;
+	color: #000;
+	margin: 0px 10px;
+	transition: 0.5s;
+	border-radius: 15px;
+	border: 0;
+}
+.button:hover{
+	border: 0;
+	background: #f00;
+	color: #fff;
+	border-radius: 0;
+}
+.button a {
+	color: #000;
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+.gonesh{
+	width: 194px;
+	height: 50px;
+	background: #f5eaea;
+	color: #000;
+	border-radius: 15px;
+	transition: 0.5s;
+	border: 0;
+}
+.gonesh:hover{
+	border: 0;
+	background: #f00;
+	color: #fff;
+	border-radius: 0;
+}
+
+/*end boxs*/
+/*start boxss*/
+.boxss{
+	width: 100%;
+	padding: 65px 0px;
+	text-align: center; 
+
+}
+.boxss h1{
+	font-size: 22px;
+    text-transform: uppercase;
+}
+#options {
+	text-align: center;
+	margin: 0 auto;
+	border: 0;
+}
+#options input{
+	width: 150px;
+	height: 50px;
+	font-size:12px;
+	text-transform: uppercase;
+	transition: 0.5s;
+	border-radius: 20px;
+	border: 0;
+}
+#options input:hover{
+	background: #f00;
+	border-radius: 0;
+}
+.slipinfo{
+	text-align: center;
+	margin: 0 auto;
+	border: 0;
+	padding: 50px 0px;
+}
+.slipinfo h2 {
+	margin: 0 auto;
+	font-size: 20px;
+	padding: 8px 0px;
+	text-transform: capitalize;
+	border-bottom: 1px solid;
+	width: 302px;
+	/* background: red; */
+}
