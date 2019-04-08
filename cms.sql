@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 24, 2019 at 11:43 PM
+-- Generation Time: Apr 08, 2019 at 12:04 PM
 -- Server version: 10.1.31-MariaDB
 -- PHP Version: 7.2.3
 
@@ -88,21 +88,9 @@ CREATE TABLE `patient` (
 --
 
 INSERT INTO `patient` (`id`, `name`, `num`, `problem`, `age`, `psc`) VALUES
-(1, 'Mr R', 1722556125, 'Cough', 45, 'Napa, Paracitamol'),
 (2, 'Mr R', 1722556125, 'Cough', 45, 'X-Ray,'),
 (3, 'Tom', 1722556125, 'Cough', 46, 'Napa, Paracitamol'),
-(4, 'Tom', 1722556125, 'Cough', 46, 'Vitamin A'),
-(5, 'Tom', 1722556125, 'Cough', 46, 'Napa, Paracitamol'),
-(6, 'Tom', 1722556125, 'Cough', 46, 'Napa'),
-(7, 'Tom', 1722556125, 'Cough', 46, 'CT Scan'),
-(8, 'Tom', 1722556125, 'Cough', 46, 'Antacid for 30 days, Vitamin - B for 20 days'),
-(9, 'Tom', 1722556125, 'Cough', 46, 'Cepro, Antacid'),
-(10, 'Tom', 1722556125, 'Cough', 46, 'Napa, Paracitamol'),
-(11, 'Mr R', 1722556125, 'Cough', 46, 'napa, X-ray'),
-(12, 'Mr R', 1722556125, 'Cough', 46, 'napa, X-ray'),
-(13, 'Gonesh Chandra Das', 1722556125, 'Fiver', 23, 'CT SCAN'),
-(14, 'ABC', 1722556125, 'Back Pain', 51, 'CT Scan'),
-(15, 'Md Sajib ', 1788836627, 'Cough', 21, 'napa, X-ray');
+(16, 'Jani Sarkar', 1722556125, 'Back Pain', 0, 'CT Scan, Napa, paracitamol, ');
 
 -- --------------------------------------------------------
 
@@ -219,7 +207,7 @@ ALTER TABLE `doctor_info`
 -- AUTO_INCREMENT for table `patient`
 --
 ALTER TABLE `patient`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `ps`
